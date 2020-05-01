@@ -16,3 +16,8 @@ git commit (aparecera en la terminal que se agrege el comentario, para terminar 
 git commit -m "comentario"
 
 git log (ver historial de commits)
+
+git remote add origin https://github.com/Usuario/Repositorio.git
+git remote -v (ver lista de archivos remoto)
+
+git push origin master (enviarlo a master remoto)
