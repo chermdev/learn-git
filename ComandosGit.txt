@@ -22,4 +22,4 @@ git remote -v (ver lista de archivos remoto)
 
 git push origin master (enviarlo a master remoto)
 
-git pull (traer cambios nuevos de alguien mas a tu computadora local)
+git pull origin master (traer cambios nuevos de alguien mas a tu computadora local)
