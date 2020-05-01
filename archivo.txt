@@ -1,0 +1,15 @@
+git config --global  user.name "Nombre Apellido"
+git config --global user.email usuario@correo.com
+
+git config --list (ver lista de git config)
+
+git config user.name (ver usuario guardado)
+git config user.email (ver correo guardado)
+
+git init (inicializa git en la carpeta)
+
+git add archivo.txt
+git status (archivo en verde porque se agrego al stage, rojo es que no se a agregado /git add)
+git add --a (agrega todos los archivos)
+
+git commit
