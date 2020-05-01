@@ -12,5 +12,6 @@ git add archivo.txt
 git status (archivo en verde porque se agrego al stage, rojo es que no se a agregado /git add)
 git add --a (agrega todos los archivos)
 
-git commit (aparecera en la terminar que se agrege el comentario, para terminar dar clic en ESC y escribir ":qw")
+git commit (aparecera en la terminal que se agrege el comentario, para terminar dar clic en ESC y escribir ":qw")
 git commit -m "comentario"
+
