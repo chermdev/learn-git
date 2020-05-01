@@ -15,3 +15,4 @@ git add --a (agrega todos los archivos)
 git commit (aparecera en la terminal que se agrege el comentario, para terminar dar clic en ESC y escribir ":qw")
 git commit -m "comentario"
 
+git log (ver historial de commits)
