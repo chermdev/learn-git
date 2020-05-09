@@ -1,5 +1,5 @@
 # Curso Git
-Texto personal para tener un recordatorio rapido de estos comandos usados en GIT.
+Repositorio personal para tener un recordatorio rapido de estos comandos usados en GIT.
 ```
 git config --global  user.name "Nombre Apellido"
 git config --global user.email usuario@correo.com
