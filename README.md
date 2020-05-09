@@ -1,0 +1,30 @@
+# Curso Git
+Texto personal para tener un recordatorio rapido de estos comandos usados en GIT.
+```
+git config --global  user.name "Nombre Apellido"
+git config --global user.email usuario@correo.com
+
+git config --list (ver lista de git config)
+
+git config user.name (ver usuario guardado)
+git config user.email (ver correo guardado)
+
+git init (inicializa git en la carpeta)
+
+git add archivo.txt
+git status (archivo en verde porque se agrego al stage, rojo es que no se a agregado /git add)
+git add --a (agrega todos los archivos)
+
+git commit (aparecera en la terminal que se agrege el comentario, para terminar dar clic en ESC y escribir ":qw")
+git commit -m "comentario"
+
+git log (ver historial de commits)
+
+git remote add origin https://github.com/Usuario/Repositorio.git
+git remote -v (ver lista de archivos remoto)
+
+git push origin master (enviarlo a master remoto)
+
+git pull origin master (traer cambios nuevos de alguien mas a tu computadora local)
+```
+
