@@ -1,96 +1,142 @@
-[[# Learn Git
+# Learn Git
 
 Guide to remember the most common git commands.
 
 ---
 
-## Basics (init, clone)
+## Start in git
 
 ### git init
 
 |             command              |                  description            |
 |----------------------------------|-----------------------------------------|
-|<pre>git init</pre>| initialize git in a folder to start from zero. |
+|<pre>git init</pre>|initialize git in a folder to start from zero.|
 
 
 ### git clone
 
 |             command              |                  description            |
 |----------------------------------|-----------------------------------------|
-|<pre>git clone _\<repo url>_ _\<optional: path>_</pre>| start from another repo. (clone a repo) |
+|<pre>git clone _\<repo url>_ _\<optional:path>_</pre>| start from another repo. (clone a repo)|
 
 Examples
 
-|name|code|notes|
+|command|action|notes|
 |---|---|---|
-|clone this repo|<pre>git clone https://github.com/chermdev/learn-git</pre>|This will create `learn-git` folder<br><br>by default the path will be the name of the repo.|
-|clone this repo with a custom path (e.g.: `/git-learn`)|<pre>git clone https://github.com/chermdev/learn-git git-guide</pre>||
+|<pre>git clone https://github.com/chermdev/learn-git</pre>|clone this repo|This will create `learn-git` folder<br><br>by default the path will be the name of the repo.|
+|<pre>git clone https://github.com/chermdev/learn-git git-guide</pre>|clone this repo with a custom path (e.g.: `/git-learn`)||
 
 ---
 
 ## Config
 
-### git config --global 
+Apply configuration to git.
 
-It's important to identify you in your commits, so add your info with:
+### git config --global user.name and user.email
 
-```bash
-git config --global user.name "<your name>"
-git config --global user.email "<your email>"
-```
- This will add it globally.
-
- _**important:**_ Make sure to use the same email from your [github emails](https://github.com/settings/emails) to allow github link your changes with your account.
-
----
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre>git config --global user.name _\<your name>_<br>git config --global user.email _\<your email>_</pre><br>This will add it globally.|It's important to identify you in the commits, with this option your commits will be linked with your account.<br><br>_**important:**_ Make sure to use the same email from your [github emails](https://github.com/settings/emails) to allow github link your changes with your account.|
 
 ## Origin (set, rename, change)
 
 The origin is where the repo comes from.
 
-### Set origin
+### git remote
 
-You can set the origin with:
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre>git remote add origin _\<url>_</pre>|Add a new origin.|
+|<pre>git remote set-url origin _\<url>_</pre>|Change the url of an existing remote repository.|
+|<pre>git remote -v|View remote git list.</pre>|
+|<pre>git remote rename origin _\<new name>_</pre>|Rename remote git.|
 
+## Branch
 
+### git checkout (create, rename, switch, delete, etc)
 
-### Change origin
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
 
-## Branch (create, rename, switch, delete, etc)
+### git switch
 
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
 
-## Rebase (change commit history)
+## Rebase and merge changes
 
-## Reset (undo changes)
+### git rebase
 
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre>git rebase -i _\<branch>_</pre>|Rebase (edit commit history)|
 
+### git merge
 
-```
-git config --global user.name "<your name>"
-git config --global user.email "<your email>"
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
 
-git config --list (ver lista de git config)
+## Undo changes
 
-git config user.name (ver usuario guardado)
-git config user.email (ver correo guardado)
+### git reset
 
-git init (inicializa git en la carpeta)
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|||
 
-git add archivo.txt
-git status (archivo en verde porque se agrego al stage, rojo es que no se a agregado /git add)
-git add --a (agrega todos los archivos)
+## Commit changes
 
-git commit (aparecera en la terminal que se agrege el comentario, para terminar dar clic en ESC y escribir ":qw")
-git commit -m "comentario"
+### git add
 
-git log (ver historial de commits)
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
 
-git remote add origin https://github.com/Usuario/Repositorio.git
-git remote -v (ver lista de archivos remoto)
+### git status
 
-git push origin master (enviarlo a master remoto)
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
 
-git pull origin master (traer cambios nuevos de alguien mas a tu computadora local)
-```
+### git commit
 
-](url)](url)
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
+
+### git log
+
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
+
+### git push
+
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
+
+### git pull
+
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
+
+### git cherry-pick
+
+|             command              |                  description            |
+|----------------------------------|-----------------------------------------|
+|<pre></pre>||
+|<pre></pre>||
